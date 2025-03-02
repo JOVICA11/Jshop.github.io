@@ -1,1 +1,133 @@
+body{
+    margin: 0;
+    }
+    .header{
+    height: 80px;
+    background-color: white;
+    }
+    .logo{
+    position: absolute;
+    width: 90px;
+    left: 20px;
+    top: 3px;
+    }
+     .menu{
+    width: 1440px;
+    height: 80px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    margin: auto;
 
+
+    }
+    .menu-elements{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;  
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    }
+
+
+    .container{
+    display: flex;
+    width: 1330px;
+    height: 550px;
+    padding-left: 40px;
+    padding-right: 50px;
+    }
+
+
+    .block
+    {  
+    border-radius: 32px 0px 0px 32px;
+    background-color: #DCE5E2;
+    padding-left: 82.4px;
+    width: 700px;
+    height: 550px;
+    }
+    .img{
+
+
+    height: 550px;
+    border-radius: 27px;
+    }
+.main-text{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: #000000;  
+    }
+   
+    .button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;  
+    text-transform: capitalize;
+    color: #000000;
+    box-sizing: border-box;
+    position: absolute;
+    width: 184px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 200px;
+    }
+    .text{
+
+
+    width: 642px;
+    height: 53px;
+    padding-top: 120px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    margin: auto;
+    color: #000000;
+    }
+
+
+    .card-img
+    {
+      height: 214px;
+    }
+.container-cards
+    {
+        padding-top: 48px;
+        width: 1434px;
+        height: 606;
+        display: flex;
+        justify-content: space-evenly;
+    }
+ 
+    .text-card
+{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;  
+    color: #000000;
+}
+    .price-card
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;  
+    color: #000000;
+}
