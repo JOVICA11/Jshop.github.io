@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     const menu = document.querySelector(".menu");
     const menuButton = document.createElement("button");
-    menuButton.innerText = "☰ Menu";
+    
     menuButton.classList.add("menu-toggle");
     document.querySelector("header").prepend(menuButton);
 
@@ -33,3 +33,4 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
